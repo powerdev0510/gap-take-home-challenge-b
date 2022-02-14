@@ -1,0 +1,79 @@
+.App {
+
+  padding: 30px;
+}
+.App h1 {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.App .tool-bar {
+  margin: 0 20px 20px 20px;
+}
+
+.btn {
+  display: inline-block;
+  /* background-color: #5A5F73; */
+  background-color: #444857;
+  color: #fff;
+  vertical-align: middle;
+  position: relative;
+  line-height: 1.2;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 10px 16px;
+  font-size: 15px;
+  text-align: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #5A5F73;
+}
+
+input[type="text"] {
+  margin-right: 10px;
+  font-size: 15px;
+  padding: 0 10px;
+  line-height: 32px;
+  outline: none;
+}
+
+.App .message {
+  padding: 20px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 15px;
+}
+.container .card {
+  width: 100%;
+  background-color: #1E1F26;
+  display: block;
+}
+
+.card .card-content {
+  margin: 20px;
+}
+
+.card img {
+  width: 100%;
+  margin: auto;
+  display: block;
+  height: 400px;
+  object-fit: fill;
+}
+
+.card .image-info {
+  margin-top: 10px;
+}
+
+.card .likes {
+  display: inline-block;
+  margin-left: 10px;
+}
